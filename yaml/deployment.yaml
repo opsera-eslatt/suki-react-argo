@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: back-end
-          image: 440953937617.dkr.ecr.us-east-2.amazonaws.com/react-repo:3713f1f9aeed97b14113bf8fdfe7b9949386bcbb
+          image: 440953937617.dkr.ecr.us-east-2.amazonaws.com/react-repo:9c9d6c00eed1da4753187bb40e561f5a3e7aa5ac
 
 ---
 #Service
