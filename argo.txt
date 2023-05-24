@@ -1,0 +1,11 @@
+
+
+I'm getting an argo sync error
+I think its because I haven't updated this yaml since I forked it
+I was going to move opsera and argo to a new branch for these experiments
+  but the branch is specified in a few locations and I don't want to get bogged down
+
+
+test 0 - first test is to move the yaml so that the app can't find it.. lets see if the error changes
+
+looks like I got the same thing.. ComparisonError: unknown;ComparisonError: unknown

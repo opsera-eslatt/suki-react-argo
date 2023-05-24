@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: react-example
+  name: cisco-react-1324-ns
   
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: react-example-demo
-  namespace: react-example
+  namespace: cisco-react-1324-ns
 spec:
   replicas: 1
   selector:
@@ -31,7 +31,7 @@ metadata:
   labels:
     app.kubernetes.io/name: react-example-demo
   name: react-example-demo
-  namespace: react-example
+  namespace: cisco-react-1324-ns
 spec:
   ports:
   - name: http
