@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: cisco-react-1324-ns
+  name: suki-react-ns
   
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cisco-react-deployment
-  namespace: cisco-react-1324-ns
+  name: suki-react-deployment
+  namespace: suki-react-ns
 spec:
   replicas: 1
   selector:
@@ -29,9 +29,9 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app.kubernetes.io/name: cisco-react-label
-  name: cisco-react-service
-  namespace: cisco-react-1324-ns
+    app.kubernetes.io/name: suki-react-label
+  name: suki-react-service
+  namespace: suki-react-ns
 spec:
   ports:
   - name: http
