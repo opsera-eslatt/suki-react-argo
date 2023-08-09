@@ -19,6 +19,8 @@ spec:
       labels:
         app: web
     spec:
+      imagePullSecrets:
+        - name: eslattacr-secret
       containers:
         - name: back-end
           image: 792373136340.dkr.ecr.us-east-2.amazonaws.com/cisco_pov:91ccea0b10291c0a49af810bc357265ef75fa8e1
