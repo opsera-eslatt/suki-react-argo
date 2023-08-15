@@ -23,7 +23,7 @@ spec:
         - name: eslattacr-secret
       containers:
         - name: back-end
-          image: eslattacr.azurecr.io/react-demo:a3444f6b0352425657419a5511a612ce83b
+          image: eslattacr.azurecr.io/react-demo:052e47926a2a970a06fb255931eafce68c3
 
 ---
 #Service
